@@ -1,0 +1,104 @@
+# ==================================================
+# Python
+# ==================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# ==================================================
+# Jupyter
+# ==================================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ==================================================
+# VS Code / IDE
+# ==================================================
+.vscode/
+.idea/
+
+# ==================================================
+# Environment variables / secrets
+# ==================================================
+.env
+.env.*
+!.env.example
+
+# ==================================================
+# Raw geospatial datasets
+# ==================================================
+data/raw/*
+!data/raw/.gitkeep
+
+# KMZ / KML
+*.kmz
+
+# Large geospatial raster formats
+*.tif
+*.tiff
+*.jp2
+
+# Raster sidecar / auxiliary files
+*.aux.xml
+*.ovr
+
+# ==================================================
+# Downloaded satellite imagery
+# ==================================================
+data/post_event/*
+!data/post_event/.gitkeep
+
+data/pre_event/*
+!data/pre_event/.gitkeep
+
+data/satellite_images/*
+!data/satellite_images/.gitkeep
+
+# ==================================================
+# Generated / intermediate geospatial data
+# ==================================================
+data/processed/*
+!data/processed/.gitkeep
+
+data/temp/*
+!data/temp/.gitkeep
+
+# ==================================================
+# Models / checkpoints
+# ==================================================
+models/*.pth
+models/*.pt
+models/*.h5
+models/*.keras
+models/*.ckpt
+models/*.onnx
+
+checkpoints/
+
+# ==================================================
+# Logs / cache
+# ==================================================
+*.log
+.cache/
+.pytest_cache/
+
+# ==================================================
+# OS generated
+# ==================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==================================================
+# Temporary files
+# ==================================================
+*.tmp
+*.temp
+~$*
