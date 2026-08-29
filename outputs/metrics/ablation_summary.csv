@@ -1,0 +1,5 @@
+variant,roc_mean,roc_std,pr_mean,pr_std
+full (8ch),0.82,0.002,0.748,0.007
+no curvature (7ch),0.817,0.004,0.741,0.018
+terrain only (3ch),0.813,0.003,0.709,0.009
+optical only (5ch),0.75,0.002,0.677,0.01
